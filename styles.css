@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(90deg, #333333, #000080);
+}
+
+.head{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.logo{
+    width: 15%;
+    font-size: 1.4em;
+    margin-right: 0;
+    margin-top: .3em;
+}
+
+.logo a{
+    margin-left: .3em;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    
+    width: 85%;
+}
+
+nav ul{
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Evenly space the items */
+    text-decoration: none;
+    margin-right: 15em;
+}
+
+nav ul li{
+    
+    list-style: none;
+    font-size: 1.2em;
+    margin-right: 12%;
+    margin-top: .3em;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+nav ul li a:not(last-child):hover{
+    color: #b6b6c0;
+    text-decoration: none;
+}
+
+.Log-in{
+    background-color: #777474;
+    width: 9%;
+    height: auto;
+    border: #777474;
+    border-radius: 5px;
+    
+}
+
+.Log-in:hover{
+    text-decoration: none;
+    background-color: #5e5b5b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
